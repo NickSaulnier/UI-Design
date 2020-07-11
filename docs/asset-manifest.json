@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/NickSaulnier/UI-Design/ui-design/static/css/main.cf36ea48.chunk.css",
+    "main.js": "/NickSaulnier/UI-Design/ui-design/static/js/main.9adc2f02.chunk.js",
+    "main.js.map": "/NickSaulnier/UI-Design/ui-design/static/js/main.9adc2f02.chunk.js.map",
+    "runtime-main.js": "/NickSaulnier/UI-Design/ui-design/static/js/runtime-main.8285b059.js",
+    "runtime-main.js.map": "/NickSaulnier/UI-Design/ui-design/static/js/runtime-main.8285b059.js.map",
+    "static/css/2.30c2d978.chunk.css": "/NickSaulnier/UI-Design/ui-design/static/css/2.30c2d978.chunk.css",
+    "static/js/2.1264341d.chunk.js": "/NickSaulnier/UI-Design/ui-design/static/js/2.1264341d.chunk.js",
+    "static/js/2.1264341d.chunk.js.map": "/NickSaulnier/UI-Design/ui-design/static/js/2.1264341d.chunk.js.map",
+    "index.html": "/NickSaulnier/UI-Design/ui-design/index.html",
+    "precache-manifest.f2444bbdf0e324a6e163c0bc0181aa61.js": "/NickSaulnier/UI-Design/ui-design/precache-manifest.f2444bbdf0e324a6e163c0bc0181aa61.js",
+    "service-worker.js": "/NickSaulnier/UI-Design/ui-design/service-worker.js",
+    "static/css/2.30c2d978.chunk.css.map": "/NickSaulnier/UI-Design/ui-design/static/css/2.30c2d978.chunk.css.map",
+    "static/css/main.cf36ea48.chunk.css.map": "/NickSaulnier/UI-Design/ui-design/static/css/main.cf36ea48.chunk.css.map",
+    "static/js/2.1264341d.chunk.js.LICENSE.txt": "/NickSaulnier/UI-Design/ui-design/static/js/2.1264341d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8285b059.js",
+    "static/css/2.30c2d978.chunk.css",
+    "static/js/2.1264341d.chunk.js",
+    "static/css/main.cf36ea48.chunk.css",
+    "static/js/main.9adc2f02.chunk.js"
+  ]
+}

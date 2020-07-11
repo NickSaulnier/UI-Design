@@ -9,6 +9,40 @@ body {
     background-color: black;
     min-height: 100vh;
     overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Home Page Styles */
+#home-page-header-container {
+    position: absolute;
+    max-width: 65vw;
+    top: 18%;
+    left: 5.5%;
+    -ms-transform: translate(5.5%, 18%);
+    transform: translate(5.5%, 18%);
+    width: fit-content;
+    height: fit-content;
+}
+
+#nick-pic {
+    position: absolute;
+    right: 6%;
+    top: 12%;
+    -ms-transform: translate(-6%, 12%);
+    transform: translate(-6%, 12%);
+    max-width: 22.5%;
+}
+
+#home-page-header-1 {
+    color: navajowhite;
+    font-size: 6.5vmin;
+    margin-bottom: 6%;
+}
+
+#home-page-header-2 {   
+    color: navajowhite;
+    font-size: 5vmin;
+    margin-top: 4%;
 }
 
 /* Navigation Styles */
@@ -27,14 +61,113 @@ body {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-#navbar-brand {
+#navbar-brand-left {
     margin-left: 4%;
-    margin-right: 4%;
+    margin-right: 2%;
     font-size: 3.6vmin;
+    color: navajowhite;
+}
+
+#navbar-brand-right {
+    margin-right: 4%;
+    margin-left: 2%;
+    color: green;
+}
+
+.nav-item {
+    margin-right: 2%;
+    white-space: nowrap;
 }
 
 .navbar-link {
-    margin-left: 4%;
-    white-space: nowrap;
-    font-size: 2.6vmin;
+    margin-left: 2%;
+    font-size: 2.5vmin;
+}
+
+.navbar-link:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 600px) {
+    #navbar-brand-left {
+        font-size: 2.8vmin;
+    }
+
+    .navbar-link {
+        font-size: 1.7vmin;
+    }
+
+    #navbar-brand-right {
+        font-size: 1.7vmin;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #navbar-brand-left {
+        font-size: 3.5vmin;
+    }
+
+    .navbar-link {
+        font-size: 2.2vmin;
+    }
+
+    #navbar-brand-right {
+        font-size: 2.2vmin;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #navbar-brand-left {
+        font-size: 4.0vmin;
+    }
+
+    .navbar-link {
+        font-size: 3vmin;
+    }
+
+    #navbar-brand-right {
+        font-size: 3vmin;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    #navbar-brand-left {
+        font-size: 4.5vmin;
+    }
+
+    .navbar-link {
+        font-size: 3.8vmin;
+    }
+
+    #navbar-brand-right {
+        font-size: 3.8vmin;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    #navbar-brand-left {
+        font-size: 5.5vmin;
+    }
+
+    .navbar-link {
+        font-size: 4.5vmin;
+    }
+
+    #navbar-brand-right {
+        font-size: 4.5vmin;
+    }
+}
+
+@media only screen and (min-width: 2500px) {
+    #navbar-brand-left {
+        font-size: 6.5vmin;
+    }
+
+    .navbar-link {
+        font-size: 5.5vmin;
+    }
+
+    #navbar-brand-right {
+        font-size: 5.5vmin;
+    }
 }
