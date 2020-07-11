@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a691709bb3a664d0bc7b9ab5f2c2fe83",
+    "revision": "de832d8d36e03da5404e1c6cf2786b45",
     "url": "/UI-Design/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/UI-Design/static/css/2.30c2d978.chunk.css"
   },
   {
-    "revision": "a0561a6faf5496ebf383",
+    "revision": "195cea11d0b27caf4c69",
     "url": "/UI-Design/static/css/main.cf36ea48.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/UI-Design/static/js/2.1264341d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a0561a6faf5496ebf383",
-    "url": "/UI-Design/static/js/main.2c36237a.chunk.js"
+    "revision": "195cea11d0b27caf4c69",
+    "url": "/UI-Design/static/js/main.661ebcbd.chunk.js"
   },
   {
     "revision": "d5efd0e958e6535c4807",
