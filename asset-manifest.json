@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/ui-design/static/css/main.cf36ea48.chunk.css",
-    "main.js": "/ui-design/static/js/main.30619261.chunk.js",
-    "main.js.map": "/ui-design/static/js/main.30619261.chunk.js.map",
-    "runtime-main.js": "/ui-design/static/js/runtime-main.8af8a73c.js",
-    "runtime-main.js.map": "/ui-design/static/js/runtime-main.8af8a73c.js.map",
-    "static/css/2.30c2d978.chunk.css": "/ui-design/static/css/2.30c2d978.chunk.css",
-    "static/js/2.1264341d.chunk.js": "/ui-design/static/js/2.1264341d.chunk.js",
-    "static/js/2.1264341d.chunk.js.map": "/ui-design/static/js/2.1264341d.chunk.js.map",
-    "index.html": "/ui-design/index.html",
-    "precache-manifest.50bccaafc0ec50e5d4927094ec2c4adf.js": "/ui-design/precache-manifest.50bccaafc0ec50e5d4927094ec2c4adf.js",
-    "service-worker.js": "/ui-design/service-worker.js",
-    "static/css/2.30c2d978.chunk.css.map": "/ui-design/static/css/2.30c2d978.chunk.css.map",
-    "static/css/main.cf36ea48.chunk.css.map": "/ui-design/static/css/main.cf36ea48.chunk.css.map",
-    "static/js/2.1264341d.chunk.js.LICENSE.txt": "/ui-design/static/js/2.1264341d.chunk.js.LICENSE.txt"
+    "main.css": "/UI-Design/static/css/main.cf36ea48.chunk.css",
+    "main.js": "/UI-Design/static/js/main.2c36237a.chunk.js",
+    "main.js.map": "/UI-Design/static/js/main.2c36237a.chunk.js.map",
+    "runtime-main.js": "/UI-Design/static/js/runtime-main.586c47e1.js",
+    "runtime-main.js.map": "/UI-Design/static/js/runtime-main.586c47e1.js.map",
+    "static/css/2.30c2d978.chunk.css": "/UI-Design/static/css/2.30c2d978.chunk.css",
+    "static/js/2.1264341d.chunk.js": "/UI-Design/static/js/2.1264341d.chunk.js",
+    "static/js/2.1264341d.chunk.js.map": "/UI-Design/static/js/2.1264341d.chunk.js.map",
+    "index.html": "/UI-Design/index.html",
+    "precache-manifest.aabe5062b7b7a94d9969aa2af32d96d4.js": "/UI-Design/precache-manifest.aabe5062b7b7a94d9969aa2af32d96d4.js",
+    "service-worker.js": "/UI-Design/service-worker.js",
+    "static/css/2.30c2d978.chunk.css.map": "/UI-Design/static/css/2.30c2d978.chunk.css.map",
+    "static/css/main.cf36ea48.chunk.css.map": "/UI-Design/static/css/main.cf36ea48.chunk.css.map",
+    "static/js/2.1264341d.chunk.js.LICENSE.txt": "/UI-Design/static/js/2.1264341d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8af8a73c.js",
+    "static/js/runtime-main.586c47e1.js",
     "static/css/2.30c2d978.chunk.css",
     "static/js/2.1264341d.chunk.js",
     "static/css/main.cf36ea48.chunk.css",
-    "static/js/main.30619261.chunk.js"
+    "static/js/main.2c36237a.chunk.js"
   ]
 }
