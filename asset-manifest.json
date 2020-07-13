@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/UI-Design/static/css/main.f02a6c88.chunk.css",
+    "main.css": "/UI-Design/static/css/main.d39c11db.chunk.css",
     "main.js": "/UI-Design/static/js/main.30c73e8a.chunk.js",
     "main.js.map": "/UI-Design/static/js/main.30c73e8a.chunk.js.map",
     "runtime-main.js": "/UI-Design/static/js/runtime-main.586c47e1.js",
@@ -9,17 +9,17 @@
     "static/js/2.1264341d.chunk.js": "/UI-Design/static/js/2.1264341d.chunk.js",
     "static/js/2.1264341d.chunk.js.map": "/UI-Design/static/js/2.1264341d.chunk.js.map",
     "index.html": "/UI-Design/index.html",
-    "precache-manifest.f1e7de62563ba8014e132f8805a100f1.js": "/UI-Design/precache-manifest.f1e7de62563ba8014e132f8805a100f1.js",
+    "precache-manifest.483c34b9e7420e21a6aaba7664c9e6a2.js": "/UI-Design/precache-manifest.483c34b9e7420e21a6aaba7664c9e6a2.js",
     "service-worker.js": "/UI-Design/service-worker.js",
     "static/css/2.30c2d978.chunk.css.map": "/UI-Design/static/css/2.30c2d978.chunk.css.map",
-    "static/css/main.f02a6c88.chunk.css.map": "/UI-Design/static/css/main.f02a6c88.chunk.css.map",
+    "static/css/main.d39c11db.chunk.css.map": "/UI-Design/static/css/main.d39c11db.chunk.css.map",
     "static/js/2.1264341d.chunk.js.LICENSE.txt": "/UI-Design/static/js/2.1264341d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.586c47e1.js",
     "static/css/2.30c2d978.chunk.css",
     "static/js/2.1264341d.chunk.js",
-    "static/css/main.f02a6c88.chunk.css",
+    "static/css/main.d39c11db.chunk.css",
     "static/js/main.30c73e8a.chunk.js"
   ]
 }
