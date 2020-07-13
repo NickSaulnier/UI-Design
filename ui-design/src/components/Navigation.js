@@ -35,9 +35,11 @@ const Navigation = () => {
                                 Pretty Cool Discussions
                             </NavLink>
                         </NavItem>
-                        <NavbarBrand id="navbar-brand-right">
-                            <FontAwesomeIcon icon={faLeaf} />
-                        </NavbarBrand>
+                        <NavItem>
+                            <NavLink href="https://github.com/NickSaulnier/Automatic-Text-Summarization-of-Privacy-Policy-Segments" className="navbar-link">
+                                <FontAwesomeIcon icon={faLeaf} id="nav-leaf" />
+                            </NavLink>
+                        </NavItem>
                     </Nav>
                 </Collapse>
             </Navbar>
