@@ -91,11 +91,7 @@ body {
     }
 
     .navbar-link {
-        font-size: 1.7vmin;
-    }
-
-    #navbar-brand-right {
-        font-size: 1.7vmin;
+        font-size: 1.5vmin;
     }
 }
 
@@ -105,11 +101,7 @@ body {
     }
 
     .navbar-link {
-        font-size: 2.2vmin;
-    }
-
-    #navbar-brand-right {
-        font-size: 2.2vmin;
+        font-size: 1.4vmin;
     }
 }
 
@@ -119,25 +111,17 @@ body {
     }
 
     .navbar-link {
-        font-size: 3vmin;
-    }
-
-    #navbar-brand-right {
-        font-size: 3vmin;
+        font-size: 2.2vmin;
     }
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1400px) {
     #navbar-brand-left {
         font-size: 4.5vmin;
     }
 
     .navbar-link {
-        font-size: 3.8vmin;
-    }
-
-    #navbar-brand-right {
-        font-size: 3.8vmin;
+        font-size: 2.2vmin;
     }
 }
 
@@ -147,11 +131,7 @@ body {
     }
 
     .navbar-link {
-        font-size: 4.5vmin;
-    }
-
-    #navbar-brand-right {
-        font-size: 4.5vmin;
+        font-size: 2.7vmin;
     }
 }
 
@@ -161,10 +141,6 @@ body {
     }
 
     .navbar-link {
-        font-size: 5.5vmin;
-    }
-
-    #navbar-brand-right {
-        font-size: 5.5vmin;
+        font-size: 3.5vmin;
     }
 }
