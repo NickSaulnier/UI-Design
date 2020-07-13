@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/UI-Design/static/css/main.1f7967a4.chunk.css",
-    "main.js": "/UI-Design/static/js/main.dcbad081.chunk.js",
-    "main.js.map": "/UI-Design/static/js/main.dcbad081.chunk.js.map",
+    "main.css": "/UI-Design/static/css/main.f02a6c88.chunk.css",
+    "main.js": "/UI-Design/static/js/main.30c73e8a.chunk.js",
+    "main.js.map": "/UI-Design/static/js/main.30c73e8a.chunk.js.map",
     "runtime-main.js": "/UI-Design/static/js/runtime-main.586c47e1.js",
     "runtime-main.js.map": "/UI-Design/static/js/runtime-main.586c47e1.js.map",
     "static/css/2.30c2d978.chunk.css": "/UI-Design/static/css/2.30c2d978.chunk.css",
     "static/js/2.1264341d.chunk.js": "/UI-Design/static/js/2.1264341d.chunk.js",
     "static/js/2.1264341d.chunk.js.map": "/UI-Design/static/js/2.1264341d.chunk.js.map",
     "index.html": "/UI-Design/index.html",
-    "precache-manifest.52e9a964ef22ce07a21fe0d987f950a0.js": "/UI-Design/precache-manifest.52e9a964ef22ce07a21fe0d987f950a0.js",
+    "precache-manifest.f1e7de62563ba8014e132f8805a100f1.js": "/UI-Design/precache-manifest.f1e7de62563ba8014e132f8805a100f1.js",
     "service-worker.js": "/UI-Design/service-worker.js",
     "static/css/2.30c2d978.chunk.css.map": "/UI-Design/static/css/2.30c2d978.chunk.css.map",
-    "static/css/main.1f7967a4.chunk.css.map": "/UI-Design/static/css/main.1f7967a4.chunk.css.map",
+    "static/css/main.f02a6c88.chunk.css.map": "/UI-Design/static/css/main.f02a6c88.chunk.css.map",
     "static/js/2.1264341d.chunk.js.LICENSE.txt": "/UI-Design/static/js/2.1264341d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.586c47e1.js",
     "static/css/2.30c2d978.chunk.css",
     "static/js/2.1264341d.chunk.js",
-    "static/css/main.1f7967a4.chunk.css",
-    "static/js/main.dcbad081.chunk.js"
+    "static/css/main.f02a6c88.chunk.css",
+    "static/js/main.30c73e8a.chunk.js"
   ]
 }
