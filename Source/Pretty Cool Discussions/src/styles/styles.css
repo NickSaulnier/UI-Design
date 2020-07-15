@@ -1,0 +1,476 @@
+/* Global Styles */
+body {
+    font-family: 'Caladea', serif;
+}
+
+.pill-container {
+    border-radius: 50px;
+}
+
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* Navbar Styles */
+#navbar-container {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    color: navajowhite;
+    background-color: #3e7aab;
+}
+
+#navbar-brand {
+    margin-left: 7.5%;
+    font-size: 4.5vmin;
+}
+
+#navbar-login-button {
+    margin-right: 7.5%;
+    background-color: #3e7aab;
+    border: none;
+    font-size: 3.5vmin;
+}
+
+#navbar-login-button:hover {
+    font-size: 3.7vmin;
+    color: navajowhite;
+}
+
+/* Navigation Dropdown Styles */
+.dropdown {
+    margin-right: 7.5%;
+}
+
+#navbar-dropdown-caret {
+    color: navajowhite;
+}
+
+#navbar-dropdown-caret:hover {
+    color: white;
+}
+
+/* DiscussionThreadFeed Styles */
+#discussion-thread-feed-container {
+    position: relative;
+    left: 0%;
+    margin: 0;
+    padding: 0;
+    width: 55vmin;
+    max-width: 45%;
+    height: 100vh;
+    background-color: navajowhite;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-right: 1.5px solid #ccc;
+    border-left: 1.5px solid #ccc;
+}
+
+/* Feed Top Bar Styles */
+#feed-top-bar-container {
+    position: relative;
+    height: fit-content;
+    min-height: 60px;
+    padding-left: 3%;
+    background-color: white;
+    border-top: 1.5px solid #ccc;
+}
+
+#feed-top-bar-new-post-button {
+    height: fit-content;
+    width: fit-content;
+    font-size: 1.6vmin;
+    background-color: #3e7aab;
+    border: none;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+#feed-top-bar-new-post-button:hover {
+    color: navajowhite;
+}
+
+#filter-items-container {
+    display: table;
+    height: fit-content;
+    min-height: 2px;
+    background-color: white;
+    border-bottom: 1.5px solid #ccc;
+}
+
+/* FeedFilter Styles */
+#feed-filter-input-container {
+    position: absolute;
+    left: 17%;
+    top: 50%;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    -ms-transform: translate(17%, -50%);
+    transform: translate(17%, -50%);
+}
+
+#feed-filter-search-button {
+    height: 4vmin;
+    width: fit-content;
+    font-size: 2.3vmin;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #3e7aab;
+    border-right: none;
+}
+
+#feed-filter-search-button:hover {
+    color: navajowhite;
+}
+
+#feed-filter-input {
+    position: relative;
+    height: 4vmin;
+    width: 30vmin;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left: none;
+    font-size: 2.2vmin;
+    padding-left: 7px;
+}
+
+#feed-filter-input:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* FeedFilterTagsContainer Styles */
+.tag-pill-container {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #343434;
+    color: white;
+    margin-bottom: 1.5%;
+    margin-left: 1.5%;
+    width: fit-content;
+    height: fit-content;
+    font-size: 2.1vmin;
+}
+
+.tag-pill-container:hover {
+    color: navajowhite;
+}
+
+.pill-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #343434;
+    border: none;
+    width: 0.5vw;
+    height: 2vh;
+}
+
+.pill-button:hover {
+    background-color: #343434;
+}
+
+.pill-button:focus {
+    background-color: #343434;
+    border: none;
+}
+
+/* FeedFilterDropdown Styles */
+#feed-filter-dropdown-toggle {
+    position: absolute;
+    left: 39%;
+    top: 250%;
+    -ms-transform: translate(39%, -250%);
+    transform: translate(39%, -250%);
+}
+
+#feed-filter-dropdown-menu {
+    font-size: 2.2vmin;
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+/* ThreadFeedItem Styles */
+.list-group-item {
+    padding-top: 6px;
+    padding-bottom: 0px;
+}
+
+.list-group-item:hover {
+    background-color: #DEDEDE;
+}
+
+/* ThreadView Styles */
+#thread-view-container {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    height: 90vh;
+    width: 67vw;
+}
+
+#feather-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#thread-view-feather {
+    font-size: 40vmin;
+}
+
+/* LoginModal Styles */
+#login-modal {
+    position: relative;
+    top: 20%;
+}
+
+.modal-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3e7aab;
+    min-height: 200px;
+}
+
+.modal-body {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-forms-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* Login Styles */
+#login-button {
+    margin: 0 auto;
+    display: block;
+    background-color: black;
+    border: none;
+}
+
+/* TextInputForm Styles */
+.input-container {
+    background-color: white;
+    min-width: 40vmin;
+    max-width: 50vmax;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 5%;
+}
+
+.icon-input {
+    float: left;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+.login-input {
+    display: inline-block;
+    border: none;
+    height: 100%;
+    margin-left: 5%;
+    max-width: 90%;
+}
+
+.login-input:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 320px) {
+    #thread-view-container {
+        top: 9%;
+        left: 48%;
+        height: 90vh;
+        width: 48vw;
+    }
+
+    #thread-view-feather {
+        font-size: 38vmin;
+    }
+
+    #feed-top-bar-new-post-button {
+        padding-top: 3.5px;
+        padding-bottom: 3.5px;
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+
+    #feed-filter-search-button {
+        padding-top: 2px;
+        padding-bottom: 10px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    #feed-filter-input {
+        width: 21vmin;
+    }
+
+    #feed-filter-dropdown-toggle {
+        left: 43%;
+        top: 240%;
+        -ms-transform: translate(43%, -240%);
+        transform: translate(43%, -240%);
+    }
+
+    .list-group-item-heading {
+        font-size: 3.7vmin;
+    }
+
+    .list-group-item {
+        font-size: 2.2vmin;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    #feed-filter-input {
+        width: 22.5vmin;
+    }
+
+    #thread-view-feather {
+        font-size: 42vmin;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #thread-view-container {
+        top: 13%;
+        left: 47%;
+        height: 90vh;
+        width: 51vw;
+    }
+
+    #feed-top-bar-new-post-button {
+        padding-top: 5.7px;
+        padding-bottom: 5.7px;
+        padding-right: 7px;
+        padding-left: 7px;
+    }
+
+    #feed-filter-input-container {
+        left: 16.5%;
+    }
+
+    #feed-filter-search-button {
+        padding-top: 2px;
+        padding-bottom: 1px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    #feed-filter-input {
+        width: 23.5vmin;
+    }
+
+    #feed-filter-dropdown-toggle {
+        left: 41%;
+        top: 230%;
+        -ms-transform: translate(41%, -230%);
+        transform: translate(41%, -230%);
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    #feed-filter-input {
+        width: 24.2vmin;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #thread-view-container {
+        top: 13%;
+        left: 46%;
+        height: 90vh;
+        width: 53vw;
+    }
+
+    #feed-top-bar-new-post-button {
+        padding-top: 5.8px;
+        padding-bottom: 5.8px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #feed-filter-input-container {
+        left: 17%;
+    }
+
+    #feed-filter-search-button {
+        padding-top: 2px;
+        padding-bottom: 1px;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    #feed-filter-input {
+        width: 25vmin;
+    }
+
+    #feed-filter-dropdown-toggle {
+        left: 38.5%;
+        top: 230%;
+        -ms-transform: translate(38.5%, -230%);
+        transform: translate(38.5%, -230%);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #thread-view-container {
+        top: 14%;
+        left: 30%;
+        height: 90vh;
+        width: 67vw;
+    }
+
+    #feed-filter-input {
+        width: 28vmin;
+    }
+
+    #feed-filter-dropdown-toggle {
+        left: 39%;
+        top: 240%;
+        -ms-transform: translate(39%, -240%);
+        transform: translate(39%, -240%);
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #thread-view-container {
+        top: 13%;
+        left: 38%;
+        height: 90vh;
+        width: 59.5vw;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    #thread-view-container {
+        top: 14%;
+        left: 30%;
+        height: 90vh;
+        width: 90vw;
+    }
+}

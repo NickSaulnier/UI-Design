@@ -1,0 +1,412 @@
+/* Page Styling */
+html, body {
+    font-size: 4vmin;
+    background-color: white;
+    height: auto;
+    overflow-x: hidden;
+}
+
+/* Global Styles */
+.text-medium-small {
+    font-size: 2.2vmin;
+}
+
+.text-small {
+    font-size: 2vmin;
+}
+
+.black-text {
+    color: black;
+}
+
+.white-text {
+    color: white;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.black-background {
+    background-color: black;
+}
+
+/* Body Styling */
+#body-container {
+    font-family: 'Varela Round';
+    text-align: center;
+    height: auto;
+}
+
+.body-container h1 {
+    position: relative;
+    margin-top: 2%;
+}
+
+.header-image {
+    margin-top: 0.5%;
+    border: solid 4px black;
+}
+
+#form-button {
+    margin-bottom: 4%;
+}
+
+#form-button:hover {
+    color: black;
+    background-color: white;
+}
+
+/* TabPane Styling */
+.tab-pane {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    margin-bottom: 2%;
+    border: solid 4px black;
+    overflow-y: auto;
+}
+
+/* TabHeader Styling */
+#tab-pane-header {
+    font-size: 8vmin;
+    margin-top: 0.5%;
+}
+
+/* TabButton Styling */
+.tab-button.unselected {
+    font-size: 2.5vmin;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: -2%;
+    color: white;
+    border-color: black;
+    background-color: black;
+}
+
+.tab-button.unselected:hover {
+    color: black;
+    background-color: white;
+}
+
+.tab-button.selected {
+    font-size: 2.5vmin;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: -2%;
+    color: black;
+    background-color: white;
+}
+
+.tab-button.selected:hover {
+    color: white;
+    background-color: black;
+}
+
+/* CardDeck Style */
+.card-deck {
+    position: relative;
+    align-content: center;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3%;
+}
+
+#note-component {
+    margin-bottom: 40%;
+}
+
+/* Card Styling */
+.note-card {
+    font-family: 'Poppins', sans-serif;
+    min-width: 250px;
+    max-width: 250px;
+    height: fit-content;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    margin: 2.5%;
+}
+
+#note-component-single {
+    width: 40%;
+}
+
+.note-card:hover {
+    border: solid 3px black;
+}
+
+.card-body {
+    margin-bottom: 6%;
+}
+
+.note-card-title {
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.note-card-link {
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.card-button {
+    position: absolute;
+    font-size: 1.5vmin;
+    left: 20%;
+    -ms-transform: translateX(20%);
+    transform: translateX(20%);
+}
+
+.card-button:hover {
+    color: black;
+    background-color: White;
+    border: solid 2.5px black;
+}
+
+/* Modal Styling */
+#modal-body {
+    margin-top: -5%;
+    max-width: 100%;
+}
+
+.modal-form {
+    overflow-y: auto;
+}
+
+#modal-header {
+    font-size: 5vmin;
+}
+
+#modal-button-col {
+    margin-left: -4%;
+}
+
+#note-type-row {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#note-type-button {
+    color: white;
+    background-color: black;
+}
+
+#note-type-button-selected {
+    color: black;
+    background-color: white;
+}
+
+#note-type-button:hover {
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+#modal-dropdown-toggle {
+    color: white;
+    background-color: black;
+}
+
+/* Dropdown Styling */
+#dropdown-menu {
+    margin-top: 5%;
+    height: auto;
+    overflow-y: scroll;
+}
+
+#dropdown-form-header {
+    color: black;
+    margin-left: -5%;
+}
+
+#dropdown-item-header {
+    color: black;
+}
+
+#project-name-entry-feedback {
+    font-size: 1.7vmin;
+    margin-left: 5%;
+}
+
+#project-name-submit-btn {
+    font-size: 1.7vmin;
+    margin-top: 4%;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+/* Note Form Group */
+#note-form-formgroup {
+    word-wrap: break-word;
+}
+
+.note-form {
+    position: relative;
+    font-size: 3vmin;
+    margin-top: 5%;
+    margin-left: -3.5%;
+}
+
+#form-title-input {
+    color: black;
+}
+
+#note-title-entry-feedback {
+    font-size: 1.8vmin;
+}
+
+#form-url-display-text {
+    color: black;
+}
+
+#url-display-text-entry-feedback {
+    font-size: 1.8vmin;
+}
+
+#form-text-input {
+    font-size: 2.3vmin;
+    color: black;
+    white-space: pre-wrap;
+}
+
+#text-entry-feedback {
+    font-size: 1.8vmin;
+}
+
+/* Edit Note Button Styling */
+#edit-note-button {
+    margin-left: 2.3%;
+    color: black;
+    background-color: white;
+}
+
+#edit-note-button:hover {
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+#edit-note-button:disabled {
+    color: white;
+    background-color: black;
+}
+
+/* Submit Button Styling */
+#submit-note-button {
+    position: relative;
+    color: white;
+    background-color: black;
+}
+
+#submit-note-button:hover {
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+/* Media Query Styles */
+@media only screen and (min-width: 200px) {
+    .note-card {
+        min-width: 120px;
+        max-width: 120px;
+        margin: 2%;
+    }
+
+    .card-button {
+        left: 22.2%;
+        -ms-transform: translateX(22.2%);
+        transform: translateX(22.2%);
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .note-card {
+        min-width: 145px;
+        max-width: 145px;
+        margin: 2%;
+    }
+
+    .card-button {
+        left: 22.2%;
+        -ms-transform: translateX(22.2%);
+        transform: translateX(22.2%);
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .note-card {
+        min-width: 167px;
+        max-width: 167px;
+        margin: 2%;
+    }
+
+    .card-button {
+        left: 21%;
+        -ms-transform: translateX(21%);
+        transform: translateX(21%);
+    }
+}
+
+@media only screen and (min-width: 550px) {
+    .note-card {
+        min-width: 295px;
+        margin: 2%;
+    }
+
+    .card-button {
+        left: 21%;
+        -ms-transform: translateX(21%);
+        transform: translateX(21%);
+    }
+
+    .card-deck {
+        margin-left: 5.4%;
+        margin: 5.4%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .note-card {
+        min-width: 278px;
+        max-width: 278px;
+        margin: 2%;
+    }
+
+    .card-button {
+        left: 20%;
+        -ms-transform: translateX(20%);
+        transform: translateX(20%);
+    }
+
+    .card-deck {
+        margin: 3%;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .card-deck {
+        margin-left: 7%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .note-card {
+        min-width: 272px;
+        max-width: 272px;
+        min-height: 275px;
+        max-height: 257px;
+    }
+
+    .card-button {
+        left: 20%;
+        -ms-transform: translateX(20%);
+        transform: translateX(20%);
+    }
+
+    .card-deck {
+        margin: 3%;
+    }
+}
